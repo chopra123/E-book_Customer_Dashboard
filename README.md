@@ -145,11 +145,10 @@ Note:- It was my first project on Angular 19 and working with Material 19, so i 
 
   
 
-Developer 
+## Developer 
 
-Puneet Chopra 
- Angular Developer | Full-Stack Enthusiast 
- Puneet Chopra 
+ Puneet Chopra.
+ Angular Developer | Full-Stack Enthusiast .
  https://www.linkedin.com/in/puneet-chopra-422795208/ 
 
  
