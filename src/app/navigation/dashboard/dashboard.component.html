@@ -1,0 +1,30 @@
+<div class="grid-container">
+  <h1 class="mat-h1" style="margin-left: 10px !important;">Products</h1>
+  <mat-grid-list [cols]="gridCols" rowHeight="500px">
+    @for (card of cards | async; track card) {
+    <mat-grid-tile [colspan]="card.cols" [rowspan]="card.rows">
+      <mat-card class="dashboard-card customCard ">
+        <mat-card-header class="custom-header">
+          <mat-card-title>
+            {{card.title}}
+          </mat-card-title>
+        </mat-card-header>
+        <mat-card-content class="dashboard-card-content">
+          <div class="card-body">
+            <img [src]="card.image" alt="" height="200px" width="200px" />
+            <div>{{ card.description }}</div>
+            <div class="row mt-3 customPrice" style="">
+              Price
+              {{ card.price }}
+            </div>
+            <div class="card-button-wrapper">
+              <button mat-flat-button color="primary" style="margin-top: 10px;" (click)="onBuyNow(card)" >Buy Now</button>
+            </div>
+          </div>
+
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+    }
+  </mat-grid-list>
+</div>
