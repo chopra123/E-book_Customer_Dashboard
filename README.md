@@ -85,23 +85,25 @@ Auth Folder have authguard  to protect Navigation ,Dashboard, routes based on us
 
 Clone the repo 
 
-```bash git clone https://github.com/chopra123/E-book_Customer_Dashboard.git
+```bash
+git clone https://github.com/chopra123/E-book_Customer_Dashboard.git
+```
 
-Install dependencies 
+## Install dependencies 
 
 npm install 
 
  
 
-Run the app 
+## Run the app 
 
 ng serve 
 
  
 
-Functionality Overview 
+## Functionality Overview 
 
-Sign up page 
+## Sign up page 
 
 Enter email eg.  xyz@gmail.com, password:- 1234 
 
@@ -109,7 +111,7 @@ Click Sign up,
 
 If you have previously done signup then click on login button 
 
-Login page 
+## Login page 
 
 Enter the same email you have used to sign up  eg.  xyz@gmail.com,  
 
@@ -119,7 +121,7 @@ Click the Login Button.
 
 If the credentials match it will Show success popup and will redirect you to the dashboard page, if not it will show error popup. 
 
-Dashboard page 
+## Dashboard page 
 
 In here you will see all the products, with details, 
 
@@ -127,7 +129,7 @@ Just Click the Buy button and it will be bought  and success Pop up will show, a
 
 Info toast is delayed using setTimeout(). 
 
-MY Books Page 
+## MY Books Page 
 
 In My Books page the bought books will be shown with read button. 
 
